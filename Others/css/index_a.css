@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* CSS Document */
+
+a{
+	text-decoration:none;
+}
+
+#logo_top_font a{
+	color:#999;
+}
+#Nav_ul li a{
+	color:#fff;
+}
+#Nav_ul li:hover a{
+	color:rgb(76,90,101);
+}
+#Nav_ul li:hover{
+	color:rgb(76,90,101);
+	cursor:pointer;
+}
+

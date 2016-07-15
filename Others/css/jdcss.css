@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* CSS Document */
+
+#cjy{
+	position:relative;
+	top:420px;
+}
+#footer{
+	position:absolute;
+	top:1500px;
+}

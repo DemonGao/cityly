@@ -1,0 +1,128 @@
+@charset "utf-8";
+/* CSS Document */
+
+#photoNav{
+	height:352px;
+	width:404px;
+	float:left;
+	margin-left:60px;
+	background-color:rgb(32,158,246);
+}
+.Nav_right{
+	margin:0px auto;
+	height:260px;
+	width:344px;
+	background:#fff;
+	padding:0px 25px;
+}
+.Nav_right_top ul{
+	text-align:center;
+	list-style:none;
+	font-size:14px;
+	color:#666;
+	height:45px;
+	border-bottom:solid 2px #ddd;
+}
+
+.Nav_right_top ul li{
+	float:left;
+	width:70px;
+	margin-right:10px;
+	line-height:45px;
+	border-bottom:solid 2px #ddd;
+}
+#Nav_right_bottom1 p{
+
+}
+#Nav_right_bottom1 input{
+	margin:9px auto;
+	width:225px;
+	border-radius:5px;
+	
+}
+#Nav_right_bottom1 .button{
+	width:200px;
+	line-height:33px;
+	background:rgb(255,102,0);
+	border:none;
+	font-size:16px;
+	font-weight:600;
+	color:#fff;
+	text-align:center;
+	margin-left:70px;
+	border-radius:5px;
+}
+
+.col #FilghtNav{
+	display:table;
+	float:none;
+	margin:20px 0px;;
+}
+.col #FilghtNav ol{
+	float:left;
+}
+.col #FilghtNav li{
+	margin:0px 15px;
+	height:20px;
+	color:rgb(51,51,51);
+}
+#smallContent{
+	width:100%;
+	float:left;
+}
+.col #smallContent .Filghtcontent{
+	float:left;
+	width:33%;
+	border-right:1px  dashed #60C0CE;
+}
+.col #smallContent .Filghtcontent li{
+	padding-left:2em;
+	margin:0px; 
+	margin-right:20px;
+	float:none;
+
+	height:2.3em;
+	line-height:2.3em;
+	font-size:18px;
+	font-family:"黑体";
+	color:rgb(51,51,51);
+}
+.col #smallContent .Filghtcontent li:hover{
+	background-color:rgb(240,240,240);
+}
+
+.col #smallContent .Filghtcontent li span{
+	display:inline;
+	float:none;
+}
+#footer{
+	position:absolute;
+	top:1150px;
+}
+
+
+.imgBox li img{
+	width:200px;
+	height:150px;
+}
+.box{
+	width:100%;
+	height:150px;
+	margin-left:auto;
+	margin-right:auto;
+	position:relative;
+	overflow:hidden;
+}
+.imgBox{
+	width:2400px;
+	position:absolute
+}
+.imgBox li{
+	float:left
+}
+
+
+#FilghtNav li:hover{
+	background-color:rgb(140,150,162);
+	cursor:pointer;
+}

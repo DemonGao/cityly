@@ -1,0 +1,84 @@
+@charset "utf-8";
+/* CSS Document */
+
+box,col,headTitle,colSkill,content{
+	display:block;
+}
+box{
+	margin:40px auto;
+	width:710px;
+
+	font-family:"黑体";
+	color:#000;
+	border:2px dashed rgb(165,213,252);
+}
+box headTitle,col{
+	text-align:center;
+}
+box headTitle{
+	font-size:1.5em;
+	background-color:rgb(165,213,252);
+}
+rowOne,rowTwo,rowThree,rowFour,rowFive,rowSix,rowp,rowbp{
+	float:left;
+	display:block;
+	line-height:40px;
+	height:40px;
+}
+#twocol{
+	height:82px;
+}
+rowp{
+	width:90px;
+	line-height:80px;
+	height:80px;
+	border:2px dashed rgb(165,213,252);
+	border-style:none dashed none  none;
+	z-index:2;
+	background-color:#fff;
+}
+rowbp{
+	line-height:80px;
+	height:80px;
+	width:407px;
+	border:2px none rgb(165,213,252);
+	z-index:2;
+	background-color:#fff;
+}
+rowOne{
+	width:90px;
+}
+rowTwo{
+	width:165px;
+	border-left:2px dashed rgb(165,213,252);
+
+}
+
+rowThree{
+	width:90px;
+	border:2px solid rgb(165,213,252);
+	border-style:none none none dashed;
+}
+rowFour{
+	width:150px;
+	border:2px solid rgb(165,213,252);
+	border-style:none none none dashed;
+}
+rowFive{
+	width:90px;
+	border:2px solid rgb(165,213,252);
+	border-style:none dashed none dashed;
+}
+rowSix{
+	float:none;
+	border-bottom:2px dashed rgb(165,213,252);
+
+}
+colSkill{
+	text-indent:2em;
+	margin:10px auto;
+}
+content{
+	text-indent:2em;
+	line-height:1.5em;
+}

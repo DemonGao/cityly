@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/css" href="myinformationCSS.css" ?>
+
+<information>
+	<box>
+		<headTitle>个人资料</headTitle>		
+		<col>
+			<rowOne>姓名</rowOne>
+			<rowTwo>高世超</rowTwo>
+			<rowThree>性别</rowThree>
+			<rowFour>男</rowFour>
+			<rowFive>岗位</rowFive>
+			<rowSix>学生</rowSix>
+		</col>
+		
+		<col>
+			<rowOne>出生日期</rowOne>
+			<rowTwo>1994.10.24</rowTwo>
+			<rowThree>学历</rowThree>
+			<rowFour>本科进行时</rowFour>
+			<rowFive>民族</rowFive>
+			<rowSix>汉</rowSix>
+		</col>
+		
+		<col>
+			<rowOne>毕业院校</rowOne>
+			<rowTwo>鲁东大学(-ing)</rowTwo>
+				<rowThree>专业</rowThree>
+			<rowFour>软件外包</rowFour>
+			<rowFive>血型</rowFive>
+			<rowSix>O型</rowSix>
+		</col>
+		
+		<col id="twocol">
+			<rowp>户口所在地</rowp>
+			<rowbp>山东省 济南市(县)章丘 乡 明水(镇)</rowbp>
+			<rowFive>身高(cm)</rowFive>
+			<rowSix>183</rowSix>
+			<rowFive>体重(kg)</rowFive>
+			<rowSix>60</rowSix>
+			
+		</col>
+		
+		<col>
+			<rowOne>联系方式</rowOne>
+			<rowTwo>15552293316</rowTwo>
+			<rowThree>邮箱</rowThree>
+			<rowFour>750229099@qq.com</rowFour>
+			<rowFive>QQ</rowFive>
+			<rowSix>750229099</rowSix>
+		</col>
+		
+		
+	</box>
+	
+	<box>
+		<headTitle>个人技能</headTitle>
+		<content>
+			<colSkill>
+			1.熟悉WIN98、WINME、WIN2000、WIN2003及WINXP系统的安装、操作及硬件维护</colSkill>
+			<colSkill>
+			2.熟悉ASP.NET、ASP、HTML、SQL标准语句
+			</colSkill>
+			<colSkill>
+			3.熟悉Acess、SQL Server、Mysql等数据库系统的基本应用
+			</colSkill>
+			<colSkill>
+			4、了解PHP、JAVA等其他开发语言
+			</colSkill>
+			<colSkill>
+			5、能够熟练使用PFFOCE2003、DW、MX2004、FW、MX2004可以简单使用Adobe PhotoshopCS		
+			</colSkill>
+		</content>
+	</box>
+	
+	<box>
+		<headTitle>自我评价</headTitle>
+		<content>
+			幽默、刚直率真、对人生的看法富含哲学性，希望能够将自身所散发的火热生命力及快感，感染到别人，所以人缘通常都很好。外向、健谈、喜欢新的经验与尝试，尤其是运动及旅行，是个永远无法被束缚、不肯妥协、同时及具备人性与野性、精力充沛且活动力强，有着远大的理想，任何时地都不会放弃希望和理想
+		</content>
+	</box>
+</information>

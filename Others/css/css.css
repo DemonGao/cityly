@@ -1,0 +1,184 @@
+@charset "utf-8";
+/* CSS Document */
+/*---------------个人资料-------------*/
+#mydata{
+	position:fixed;
+	top:170px;
+	right:0px;
+	border-radius:25px 0px 25px 25px;;
+	border:2px solid rgb(140,186,38);
+	width:180px;
+	height:180px;
+	z-index:99999;
+}
+#mydata p{
+	text-indent:2em;
+}
+#mydata button{
+	margin:0px;
+	position:relative;
+	float:right;
+	z-index:99999;
+}
+/*------------按钮导航(左)---------------*/
+#Nav_left{
+	position: absolute;
+	top: 170px;
+	left: 80px;
+	height: 352px;
+	z-index: 4;
+	width: 131px;
+	
+}
+#Nav_left ul{
+	text-align:center;
+	list-style:none;
+	width:130px;
+	background:rgb(76,90,101);
+	color:#fff;
+	font-size:14px;
+}
+#Nav_left ul li{
+	display:block;
+	line-height:44px;
+}
+/*----------初始属性------------*/
+#Nav_left_1{
+	background:#fff;
+	color:rgb(80,180,0);
+}
+#Nav_right_li1{
+	color:rgb(80,180,0);
+	border-bottom:2px solid rgb(80,180,0);
+}
+#Nav_right_li21{
+	color:rgb(80,180,0);
+	border-bottom:2px solid rgb(80,180,0);	
+}
+/*-------------景点门票→Nav_right----------------*/
+.Nav_right{
+	position:absolute;
+	top:170px;
+	left:210px;
+	height:352px;
+	z-index:4;
+	width:330px;
+	background:#fff;
+	padding:0px 25px;
+}
+
+#Nav_right1{
+}
+#Nav_right2{
+	z-index:3;
+}
+#Nav_right3{
+	z-index:3;
+}
+/*------------按钮导航(右)(景点门票)---------------*/
+
+.Nav_right_top{
+	height:48px;
+	z-index:3;
+	width:330px;
+	background:#fff;
+}
+.Nav_right_bottom{
+	position: absolute;
+	top: 48px;
+	left: 25px;
+	width:330px;
+	z-index:3;
+	padding:0px 0px 10px;
+	background:#fff;
+}
+.Nav_right_bottom ul{
+	margin:0px;
+	padding:0px;
+	list-style:none;
+	border:1px solid;
+}
+.Nav_right_bottom ul ol{
+	color:#999;
+	font-weight:500;
+	font-size:13px;
+}
+.Nav_right_bottom ul li{	
+	display:block;
+	float:left;
+	margin:10px 10px;
+	font-size:12px;
+	color:#666;
+}
+.Nav_right_top ul{
+	text-align:center;
+	list-style:none;
+	font-size:14px;
+	color:#666;
+	height:45px;
+	border-bottom:solid 2px #ddd;
+}
+
+.Nav_right_top ul li{
+	float:left;
+	width:70px;
+	margin-right:10px;
+	line-height:45px;
+	border-bottom:solid 2px #ddd;
+}
+
+/*#Nav_right_bottom h5{
+	color:#999;
+	font-weight:500;
+	font-size:13px;
+}*/
+.Nav_rightlist{
+	display:block;
+	float:left;
+	margin:10px 10px;
+	font-size:12px;
+	color:#666;
+}
+/*------------酒店Nav_right_bottom22--------------*/
+#Nav_right_bottom21{
+}
+
+/*--------输入框(景点门票)-----------------*/
+.Nav_right_jdss{
+	width:320px;
+	font-size:14px;
+	height:30px;
+	margin-top:25px;
+	padding-left:10px;
+	color:#aaa;
+	border:1px solid #ddd;
+	border-radius:5px;
+}
+.Nav_right_jdssmid{
+	/*酒店-国内酒店输入框*/
+	width:220px;
+	
+	font-size:14px;
+	height:30px;
+	margin-top:25px;
+	padding-left:10px;
+	color:#aaa;
+	border:1px solid #ddd;
+	border-radius:5px;
+}
+/*---------------按钮导航(右)酒店*/
+/*-----------搜索按钮-------------*/
+.button{
+	position:relative;
+	left:195px;
+	width:135px;
+	line-height:33px;
+	background:rgb(255,102,0);
+	border:none;
+	font-size:16px;
+	font-weight:700;
+	color:#fff;
+	text-align:center;
+	margin-top:10px;
+	border-radius:2px;
+}
